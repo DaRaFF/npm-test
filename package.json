@@ -1,15 +1,20 @@
 {
   "name": "daraff-test",
-  "version": "1.0.3",
+  "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tap test/*.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "semantic-release": "^6.3.2",
+    "semantic-release": "^6.3.6",
     "tap": "^10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DaRaFF/npm-test.git"
   }
 }
