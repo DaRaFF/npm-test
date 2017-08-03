@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tap test/*.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "semantic-release": "^6.3.2"
+    "semantic-release": "^6.3.2",
+    "tap": "^10.0.0"
   }
 }
