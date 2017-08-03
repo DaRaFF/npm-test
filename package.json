@@ -9,6 +9,13 @@
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "@livingdocs/conf": "^1.0.0",
+    "@livingdocs/docker": "^5.0.0",
+    "@livingdocs/framework": "^7.8.0",
+    "@livingdocs/server": "*",
+    "@livingdocs/editor": "*"
+  },
   "devDependencies": {
     "semantic-release": "^6.3.6",
     "tap": "^10.0.0"
