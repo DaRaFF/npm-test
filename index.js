@@ -1,4 +1,1 @@
-echo "hello world"
-echo "breaking change"
-echo "a master fix"
-echo "another master fix"
+echo "hello world - this is version 3.0.0"
